@@ -31,12 +31,14 @@ pip3 install io minimalmodbus serial influxdb time timeloop datetime
 ```
 other:
 - influxdb server
-- Linux Platform (testet on Raspian Stretch)
-copy the script to a location of your choice. I've chosen /opt/modbus-influxdb/.
+- Linux Platform (testet on Debian Bullseye)
+copy the script to a location of your choice. I've chosen /opt/modbus-influxdb/
 
 ```
 cp modbus-influxdb.py /opt/modbus-influxdb/
 ```
+
+change INSERTYOURDATA placeolder with your influxdb server need.
 
 # Starting the script
 ```
@@ -47,3 +49,7 @@ chmod +x modbus-influxdb.py
 # executing:
 ./modbus-influxdb.py
 ```
+
+# Graph data
+
+import the grafana.json in your grafana and change the INSERTYOURDATA placeolder with your measurement, select your correct influxdb datasource.
