@@ -1,5 +1,5 @@
 # orno-modbus-influxdb-grafana
-Read ORNO OR-WE-514 ModbusRTU energy meter via RS485 serial and insert values to influxdb server and graph with grafana
+Read ORNO OR-WE-514 ModbusRTU energy meter via RS485 serial, insert values to influxdb server and graph with grafana
 
 view live data on https://grafana.panu.it/d/ht_7Qt07k/mainline-orno-or-we-514?orgId=1&refresh=1m
 
