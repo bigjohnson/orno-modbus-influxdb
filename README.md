@@ -1,6 +1,8 @@
 # orno-modbus-influxdb-grafana
 Read ORNO OR-WE-514 ModbusRTU energy meter via RS485 serial and insert values to influxdb server and graph with grafana
 
+![Pic4](pics/grafanas.png)
+
 The script reads the values every 10 seconds from the energy meter and insert them to the influxdb server. Read-out and publish takes about 1 second for all values @ 9600 Baud speed and 2-3 seconds @ 2400 Baud speed.
 I've use the default serial config: 9600 Baud / 8E1.
 
