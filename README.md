@@ -30,7 +30,7 @@ pip3 install io minimalmodbus serial influxdb time timeloop datetime
 other:
 - influxdb server
 - Linux Platform (testet on Raspian Stretch)
-copy the script to a location of your choice. I've chosen /opt/modbus-mqtt/.
+copy the script to a location of your choice. I've chosen /opt/modbus-influxdb/.
 
 ```
 cp modbus-influxdb.py /opt/modbus-influxdb/
