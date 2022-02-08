@@ -52,4 +52,4 @@ chmod +x modbus-influxdb.py
 
 # Graph data
 
-import the grafana.json in your grafana and change the INSERTYOURDATA placeolder with your measurement, select your correct influxdb datasource.
+import the orno.json in your grafana and change the INSERTYOURDATA placeolder with your measurement, select your correct influxdb datasource.
