@@ -45,4 +45,3 @@ chmod +x modbus-influxdb.py
 # executing:
 ./modbus-influxdb.py
 ```
-I've created a systemd service to make it running in the backround
