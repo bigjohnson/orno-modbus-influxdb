@@ -38,7 +38,7 @@ copy the script to a location of your choice. I've chosen /opt/modbus-influxdb/.
 cp modbus-influxdb.py /opt/modbus-influxdb/
 ```
 
-# Starting the scipt
+# Starting the script
 ```
 # change directory
 cd /opt/modbus-influxdb/
